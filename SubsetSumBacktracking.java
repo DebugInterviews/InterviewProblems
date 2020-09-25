@@ -1,7 +1,7 @@
 package DebugInterviews;
 
 public class SubsetSumBacktracking {
-        // Return true if there exists a subsequence of arr[0..n] with given sum
+        
         public static boolean subsetSum(int[] arr, int n, int sum)
         {
             // return true if given sum is 0 or sum becomes 0 eventually ie., subset found
@@ -28,8 +28,8 @@ public class SubsetSumBacktracking {
 
         public static void main(String[] args)
         {
-            int[] arr = { 7, 3, 2, 5, 8 };
-            int sum = 14;
+            int[] arr = { 3, 5, 10, 1, 9 };
+            int sum = 8;
 
             if (subsetSum(arr, arr.length - 1, sum)) {
                 System.out.print("True");
